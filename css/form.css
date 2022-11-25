@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding: 0px 9px 15px 9px;
+}
+
+.form__input {
+  color: rgb(146, 144, 144);
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  padding: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+  flex-basis: 80%;
+}
+
+.form__button {
+  color: white;
+  text-align: center;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+}
+
+.form__button:hover {
+  color: white;
+  text-align: center;
+  background-color: rgb(18, 148, 148);
+  padding: 10px;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .form__flex {
+    margin: 1%;
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 1151px) {
+  .form__flex {
+    margin: 1%;
+    flex-basis: 100%;
+  }
+}

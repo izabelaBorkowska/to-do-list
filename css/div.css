@@ -1,0 +1,11 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.header {
+  border-bottom: 1px solid;
+  border-color: rgba(166, 165, 165, 0.29);
+  padding: 9px 15px 20px 25px;
+}
