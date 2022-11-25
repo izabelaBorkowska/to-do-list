@@ -5,7 +5,8 @@
  
 ### Description 
 I have created a simple to-do list as part of my Front End course. 
-This list allows you to add new tasks and creates a list below. You can mark your tasks as done or remove it from the list. 
+You can use it to add new tasks and create a list below. 
+You can mark your tasks as done and/or remove them from the list. 
 
 In this project I used: 
 - HTML
@@ -16,5 +17,5 @@ In this project I used:
 
 I am studying frontend development with Youcode and this project was created as part of my training. 
 
-Presetation of my project:
+Presentation of my project:
 ![Sample](images/todolistgif.gif)
