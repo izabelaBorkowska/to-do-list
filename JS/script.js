@@ -27,6 +27,7 @@
       });
     });
 
+    
     const toggleDoneButtons = document.querySelectorAll(".js-done");
 
     toggleDoneButtons.forEach((toggleDoneButton, index) => {
