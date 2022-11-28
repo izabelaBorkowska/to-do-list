@@ -30,6 +30,8 @@
 }
 .list__button--toggleDone:hover {
   cursor: pointer;
+  background: rgb(37, 167, 37);
+
 }
 
 .list__button--remove {
@@ -39,4 +41,5 @@
 
 .list__button--remove:hover {
   cursor: pointer;
+  background-color: rgb(222, 69, 69);
 }
