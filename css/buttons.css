@@ -1,0 +1,34 @@
+.buttons__hide {
+    font-size: 15px;
+    color: teal;
+    border: none;
+    background-color: transparent;
+    transition: color 0.5s;
+    margin: 0 0 0 20px;
+}
+
+.buttons__hidden {
+ border: none;
+ background-color: white;
+ color: teal;
+}
+
+
+@media (max-width: 767px) {
+    .buttons__hide {
+        flex-basis: 100%;
+        margin: 10px;
+    }
+}
+
+.buttons__hidden:hover {
+    color: hsl(191, 54%, 45%);
+}
+
+.buttons__hidden:active {
+    color: hsl(180, 100%, 35%);
+}
+
+.buttons__hidden:disabled {
+    color: #ccc;
+}

@@ -1,16 +1,20 @@
 .list {
   list-style: none;
   margin: 0;
-  padding: 10px;
+  padding: 0;
 }
 
 .list__item {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  grid-gap: 10px;
   align-items: center;
+  gap: 10px;
   border-bottom: 1px solid rgb(245, 235, 235);
   padding: 10px;
+}
+
+.list__item--hidden {
+  display: none;
 }
 
 .list__content--checked {
@@ -22,6 +26,7 @@
   border-style: none;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .list__button--toggleDone {
@@ -42,4 +47,8 @@
 .list__button--remove:hover {
   cursor: pointer;
   background-color: rgb(222, 69, 69);
+}
+
+.list__content {
+  width: 100%;
 }
