@@ -9,8 +9,8 @@ You can use it to add new tasks and create a list below.
 You can mark your tasks as done and/or remove them from the list.
 
 New features added:
--you can mark all tasks as done
--you can hide/show again completed tasks
+- you can now mark all tasks as done
+- also you can hide/show again completed tasks
 
 In this project I used:
 
