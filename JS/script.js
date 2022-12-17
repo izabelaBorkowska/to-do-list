@@ -79,7 +79,6 @@
     let htmlStringTasks = "";
 
     for (const task of tasks) {
-      console.log({ task });
       htmlStringTasks += `
       <li class="list__item ${
         task.done && hiddenTaskDone ? "list__item--hidden" : ""
@@ -127,7 +126,6 @@
     bindRemoveButtonsEvents();
     bindToggleDoneButtonsEvents();
     bindButtonsEvents();
-    console.log({ tasks });
   };
 
   const onFormSubmit = (event) => {
