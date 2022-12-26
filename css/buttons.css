@@ -4,15 +4,13 @@
     border: none;
     background-color: transparent;
     transition: color 0.5s;
-    margin: 0 0 0 20px;
-}
+    margin-left: 20px;}
 
 .buttons__hidden {
  border: none;
  background-color: white;
  color: teal;
 }
-
 
 @media (max-width: 767px) {
     .buttons__hide {
